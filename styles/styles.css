@@ -75,7 +75,7 @@ img {
 .beach {
   width: 100%;
 }
-.sea {
+#waves {
   width: 90%;
   display: block;
   margin-left: auto;
@@ -95,4 +95,33 @@ li {
   margin-top: 5pt;
   margin-right: 20pt;
   margin-left: 20pt;
+}
+@media only screen and (max-width: 320px) {
+  body {
+    border-width: 1pt;
+    border-color: blue;
+    border-style: groove;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    border-width: 2.5pt;
+    border-color: blue;
+    border-style: groove;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  body {
+    border-width: 5pt;
+    border-color: blue;
+    border-style: groove;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    border-width: 10pt;
+    border-color: purple;
+    border-style: groove;
+  }
 }
